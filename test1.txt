@@ -104,5 +104,6 @@ NEXT BRANCHING:::
 
 BRANCH MERGING:
     let us talk about merging the branch 
-    """ git merge branching1 """ 
+    merging doesnt mean both will become one, it means it pushes info of branch1 into the main..
+    """ git merge branching1 """  
 
