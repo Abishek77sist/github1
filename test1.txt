@@ -101,3 +101,8 @@ NEXT BRANCHING:::
         default ah you will be in the main branch , to select the side branch(branch1)
         use """ git checkout branch1 """
 
+
+BRANCH MERGING:
+    let us talk about merging the branch 
+    """ git merge branching1 """ 
+
