@@ -55,3 +55,36 @@ FILE ADD IN THE repositary IN GITHUB AND THE CHANGES NEEDS TO BE DONE IN OUR SYS
         (""" git pull""")
         by using this comment, add or modified any file in the repositary folder can also 
         be changed or added in our system(vs code) ...
+
+
+LET US CREATE A NEW FOLDER IN THE SYSTEM VS CODE(GITHUB2), THEN HOW WILL WE TAKE IT TO THE GITHUB..
+STEPS:
+    since we are currently in the github1 directory(C:\git beginners\github1> )
+    change it to github2 using cd..and cd <folder name>                         ( github2)
+
+
+    now the given still wont show the hidden git if you open the folder in file manager..
+    even if you use show hidden since its not connected to github
+
+    TO change that first step would be :
+        use """ git init """
+
+        you might say for next step use """git add filename """ but this takes longer if many files present.
+        hence, we use git add .  (. signifies all of files in folder)
+        then use """"git commit m- "created index.html and style.css" """
+        this makes the files in folder added in git clone..
+        after before pushing them into github ,, we need to create a repositary (github2)
+
+        NOW TO INSERT THE SYSTEM FOLDER INTO THAT REPOSITARY:
+          push would be like
+          """ git remote add origin https://github.com/Abishek77sist/github2.git (taken from the repositary)
+
+          now if you use """git branch """..
+          it will show master instead of main ,,this is becuase in older version we used master insteadof branch.
+          hence if """we use git push origin main""" , it will throw error 
+
+          now you either type """git push origin master"""
+          else:
+            change branch name using """git branch -M main
+            next use """ git push origin main """
+              
