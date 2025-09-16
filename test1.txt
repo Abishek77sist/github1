@@ -1,1 +1,38 @@
 test.txt
+  okay 
+
+  STEPS ( INSERT - ADD - COMMIT - PUSH)
+
+  step 1:
+  you have to create a repositary in the github1
+  after that you create a file named test1.txt 
+  then to get that file in our system ( in vs code), 
+  we create a folder for the repositary named GIT beginners..
+
+  then we use terminal and type git clone <link of the folder through the code option
+  at he top of the repositary and of course greater lesser sysmbols are not written>
+
+
+
+  once it is done we get a three stages  which one is a orginal gitfile in the repositary 
+  and other is a git clone gile and other is a  clone working file.
+
+  the changes or creating a new file in github1 through vs code doesnt affect the git file,
+  we can verify this through git status in the new file (text2.txt)....
+
+  the procees is we take the second test2 to the git file and to the git hub...
+  to make that use git add test2.txt , now U changed into A. which these are stored in the staging area.
+
+  staging area = stage between working file and the git file
+  To sent it to git clone file we use git commit -m "commmit name" now this adds them into the 
+  git clone file
+
+  after this we have crossed the second change, then next we have to take text2 to the main github file.
+  FOR that we use git push origin main
+
+  origin = the link we first pushed into the folder (github1) .we push the file wherever you want
+            in the folder(github1) either in main or other branches..
+
+
+  also since i have wrtten something here in test1 and not in the original github file (test1)
+  it show M (modified) to change that also use git add <file name.txt>
