@@ -1,4 +1,4 @@
-NEXT BRANCHINH:::
+NEXT BRANCHING:::
         normally in a folder there exits only one branch named MAIN 
         to show all branches present is """ git branch -a """
         to create new branch in github is clicking main branch and name the side branch..
