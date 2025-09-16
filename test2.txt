@@ -1,0 +1,10 @@
+NEXT BRANCHINH:::
+        normally in a folder there exits only one branch named MAIN 
+        to show all branches present is """ git branch -a """
+        to create new branch in github is clicking main branch and name the side branch..
+        if you want same files as in main then click that something option that occurs..
+
+        this can be viewed in system (vs code) only when the comment uses git pull to update the system.
+
+        default ah you will be in the main branch , to select the side branch(branch1)
+        use """ git checkout branch1 """
