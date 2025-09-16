@@ -8,3 +8,6 @@ NEXT BRANCHING:::
 
         default ah you will be in the main branch , to select the side branch(branch1)
         use """ git checkout branch1 """
+
+    YOU CAN SEE DIFFERNCE between MAIN AND CREATED BRANCH (BRANCH1) CAN BE viewed USING:
+        """git diff branch1"""
