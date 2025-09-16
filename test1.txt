@@ -23,7 +23,7 @@ test.txt
   the procees is we take the second test2 to the git file and to the git hub...
   to make that use 
   """git add test2.txt """
-   , now U changed into A. which these are stored in the staging area.
+   , now U(untracked) changed into A(added). which these are stored in the staging area. or also M(modified)
 
   staging area = stage between working file and the git file
   To sent it to git clone file we use 
